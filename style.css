@@ -1,0 +1,218 @@
+/*Header stylings*/
+
+header {
+    background: black;
+    background: -webkit-linear-gradient(gray, black);
+    background: -o-linear-gradient(gray, black);
+    background: -moz-linear-gradient(gray, black);
+    background: linear-gradient(gray, black);
+    height: 85px;
+}
+.logoicon {
+    width: 5%;
+    position: relative;
+    margin-left: 5%;
+}
+header h1 {
+    position: relative;
+    bottom: 76px;
+    left: 11%;
+    color: white;
+}
+nav {
+    position: relative;
+    bottom: 153px;
+    left: 21%;
+}
+nav ul {
+    list-style: none;
+    position: relative;
+    display: inline-flex;
+    color: white;
+    width: 55%;
+    /*move this around to move the icon to the right or left*/
+    margin-top: 22px;
+}
+nav li {
+    font-size: 1.5rem;
+    padding-right: 4%;
+}
+.avatoricon {
+    width: 5%;
+    vertical-align: middle;
+}
+nav p {
+    color: white;
+    position: relative;
+    bottom: 76px;
+    left: 63%;
+    font-size: 1.4rem;
+}
+
+/*banner stylings*/
+
+.banner {
+    font-size: 2.8rem;
+    margin-left: 4%;
+    color: #777777;
+}
+section {
+    background-color: #F2F0EC;
+    height: 850px;
+}
+article {
+    position: relative;
+    float: left;
+    left: 5%;
+    width: 55%;
+}
+.basketball_pic {
+    background: url("http://farm1.static.flickr.com/195/469749947_3989313ba9.jpg");
+    background-size: cover;
+    height: 600px;
+}
+.banner_opacity {
+    background-color: black;
+    opacity: 0.6;
+    height: 90px;
+}
+article h3 {
+    position: relative;
+    color: white;
+    font-size: 2rem;
+    left: 3%;
+    top: 20px;
+}
+.banner_opacity p {
+    position: relative;
+    color: white;
+    bottom: 88px;
+    left: 70%;
+    font-size: 1.3rem;
+}
+.clock {
+    color: #F5CE2E;
+    position: relative;
+    bottom: 40px;
+    left: 65%;
+    font-size: 2rem;
+    vertical-align: middle;
+}
+.imagefooter p:nth-child(2) {
+    background-color: #D0CDC7;
+    position: inherit;
+    height: 88px;
+    margin-top: 0;
+    font-size: 1.8rem;
+    padding-top: 27px;
+    font-style: italic;
+    padding-left: 3%;
+    color: #4A4A49;
+}
+.imagefooter p:first-child {
+    background-color: #F7CD2E;
+    display: inline-block;
+    color: white;
+    padding: 10px 4%;
+    position: absolute;
+    bottom: 160px;
+    right: 720px;
+    width: 16%;
+    font-size: 1.2rem;
+    border-bottom: #D9A422 3px solid;
+}
+.imagefooter p:nth-child(3) {
+    position: relative;
+    width: 87%;
+    font-size: 1.1rem;
+    margin-left: 6%;
+    color: #969595;
+    font-weight: bold;
+}
+aside {
+    float: right;
+}
+.numberbox p:first-child {
+    position: relative;
+    background-color: #D0CDC7;
+    color: white;
+    display: inline-block;
+    padding: 40px 6%;
+    font-size: 7rem;
+    left: 4%;
+    bottom: 80px;
+}
+.numberbox p:nth-child(2) {
+    position: relative;
+    background-color: #B0A9A0;
+    display: inline-block;
+    padding: 15px 8.1%;
+    font-size: 1.2rem;
+    right: 27%;
+}
+.numberbox2 p:first-child {
+    position: relative;
+    background-color: #D0CDC7;
+    color: white;
+    display: inline-block;
+    padding: 44px 3.4%;
+    font-size: 6rem;
+    left: 39%;
+    bottom: 496px;
+}
+.numberbox2 p:nth-child(2) {
+    position: relative;
+    background-color: #B0A9A0;
+    display: inline-block;
+    padding: 15px 1.8%;
+    font-size: 1.2rem;
+    left: 8%;
+    bottom: 405px;
+}
+.join {
+    color: white;
+    background: #D9A422;
+    background: -webkit-linear-gradient(#FCDA30, #E8A526);
+    background: -o-linear-gradient(#FCDA30, #E8A526);
+    background: -moz-linear-gradient(#FCDA30, #E8A526);
+    background: linear-gradient(#FCDA30, #E8A526);
+    position: relative;
+    bottom: 486px;
+    left: 30px;
+    padding: 30px 17.9%;
+    font-size: 2rem;
+    border-radius: 15px;
+}
+
+.medal_icon{
+  width: 15%;
+float: left;
+padding-left: 9px;
+}
+
+.reward{
+  position: relative;
+background-color: white;
+bottom: 487px;
+width: 60%;
+left: 7.2%;
+border-radius: 9px;
+border: solid black 2px;
+height: 98px;
+
+}
+
+.reward p:first-child{
+  display: inline;
+font-size: 1.8rem;
+font-weight: bold;
+}
+
+.reward p:nth-child(2){
+  display: inline;
+  position: relative;
+  font-size: 1.4rem;
+  left: 5px;
+  font-weight: bold;
+  top: 9px;
+}
